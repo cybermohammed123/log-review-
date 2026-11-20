@@ -1,0 +1,9 @@
+first open the var/mail dir and create a file that has your username.
+
+after that open the /etc/aliases file adding at the bottom of the file this key and value:
+root: your username that you type 
+
+after you saved it you make it to binary format so the system can understand by typing sudo newaliases
+
+now you can watch your default log configuration by going to /usr/share/logwatch/default.conf/logwatch.conf, but to increase the level of details go to/etc/logwatch/conf/logwatch.conf and type Detail = Med
+
